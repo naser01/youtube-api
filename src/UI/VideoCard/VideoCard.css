@@ -1,0 +1,7 @@
+.VideoCard {
+    height: 40px;
+    width: 150px;
+    padding: 35px;
+    box-sizing: border-box;
+    border: 5px solid  rgb(44, 36, 34);
+}
