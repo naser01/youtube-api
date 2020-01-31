@@ -8,6 +8,8 @@ class Search extends Component {
         event.preventDefault();
         this.props.onSubmit(this.state.term);
     }
+
+
     render() {
         return(
             <div className="ui segment" style={{margin: '20px 50px'}}>
@@ -20,7 +22,6 @@ class Search extends Component {
                             onChange={e=>this.setState({term: e.target.value})}
                         />   
                     </div>
-                    <p>{this.state.term}</p>
                 </form>
             </div>
         );
